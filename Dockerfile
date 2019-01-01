@@ -9,7 +9,7 @@ RUN apt-get update \
         nginx \
     && rm -rf /var/lib/apt/lists/*
 
-RUN gem sources --add https://gems.ruby-china.com --remove https://rubygems.org/
+#RUN gem sources --add https://gems.ruby-china.com --remove https://rubygems.org/
 
 RUN gem install bundler
 
